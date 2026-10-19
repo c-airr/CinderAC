@@ -1,0 +1,10 @@
+# local research material and server logs (player names) - never commit
+dc/
+
+# build output and local files
+build/
+.gradle/
+.idea/
+*.iml
+.env
+*.log

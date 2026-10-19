@@ -1,0 +1,7 @@
+{
+  "preset": "gradle",
+  "image": "gradle:jdk25",
+  "cmd": ["./gradlew", "build", "--no-daemon"],
+  "artifacts": ["build/libs/*.jar"],
+  "exclude": ["dc"]
+}

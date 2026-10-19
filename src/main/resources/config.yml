@@ -1,0 +1,198 @@
+##############################################
+#            CinderAC - configuration         #
+##############################################
+# Check settings live in a separate file, checks.yml.
+
+prefix: '&c&lCinderAC &8»'
+
+alerts:
+  # Placeholders: %player% %max-vl% %check% %description% %version% %dev% %vl% %ping% %tps% %type% %severity%
+  # %x% %y% %z% %world% %complex-type% %client-brand% %info% %cps% %category% %total-violations% %opponent%
+  format: '%prefix% &f%player% &7failed &f%check% %dev%&7(&fType %type%&7)%dev% &7[%severity%%vl%&7/&4%max-vl%&7]'
+  hover-message:
+    - '&7Ping: &c%ping% &8| &7TPS: &c%tps% &8| &7Version: &c%version% &8| &7Client: &c%client-brand%'
+    - ''
+    - '&7Description:'
+    - '&7%description%'
+    - ''
+    - '&7Information:'
+    - '&7%info%'
+    - ''
+    - '&7Click to teleport to &b%player%&7.'
+  # command run when an alert is clicked (runs the list below as the staff member)
+  click-commands:
+    - '/cinderac clickalert %player%'
+  click-alert-command-commands:
+    - 'tp %player%'
+  toggled-on-message: '%prefix% &7CinderAC alerts &aenabled&7!'
+  toggled-off-message: '%prefix% &7CinderAC alerts &cdisabled&7!'
+  print-to-console: true
+  console-format: '[CinderAC] %player% failed %check% %dev%(Type %type%)%dev% (%vl%/%max-vl%)'
+  # console commands run on every alert
+  custom-commands: []
+  # %severity% color depending on VL (per check or total - settings.per-check-severities)
+  severity:
+    violations:
+      2: 4
+      3: 8
+      4: 12
+      5: 16
+      6: 16
+      7: 16
+      8: 16
+      9: 16
+      10: 16
+    colors:
+      1: '&a'
+      2: '&e'
+      3: '&6'
+      4: '&c'
+      5: '&4'
+      6: '&4'
+      7: '&4'
+      8: '&4'
+      9: '&4'
+      10: '&4'
+  experimental-symbol: '*'
+
+# plugins/CinderAC/violations.txt
+log-file:
+  enabled: true
+  alert-message: '%player% failed %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Version: %version%] [Client: %client-brand%]'
+  punishment-message: '%player% was punished for %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Client: %client-brand%]'
+
+# setback for players "hanging" in an unloaded chunk
+unloaded-chunks:
+  setback-enabled: false
+  message: '%prefix% &c%player% &7was setback for being in an unloaded chunk!'
+  max-ticks: 40
+
+# plugins/CinderAC/punishments.txt
+punishment-file:
+  enabled: true
+
+violation-reset:
+  enabled: true
+  interval-in-minutes: 8
+  message-enabled: true
+  message: '%prefix% &7Violations for all online players were reset!'
+
+client-brand-alerts:
+  resolve: true
+  enabled: true
+  ignore-alerts-list:
+    - 'vanilla'
+  message: '%prefix% &c%player% &7joined using &f%client-brand%&7!'
+  blocked-client-brands: []
+  unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand%!'
+  console: false
+  console-message: '[CinderAC] %player% joined using %client-brand%!'
+  whitelist-enabled: false
+  whitelisted-client-brands: []
+
+# Transactions and keepalives. Kicks for out-of-order or missing replies protect against "disablers".
+connection:
+  other-anticheat-support: false
+  invalid:
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for sending an invalid confirmation packet! (ID: &c%id%&7)'
+    console-alert-message: '[CinderAC] %player% was kicked for sending an invalid confirmation packet! (ID: %id%)'
+  out-of-order:
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for sending an out of order confirmation packet! (&7Received &c%id% &7!= Expected &c%last-id%&7)'
+    console-alert-message: '[CinderAC] %player% was kicked for sending an out of order confirmation packet! (Received %id% != Expected %last-id%)'
+  no-response:
+    delay-in-seconds: 30
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for not replying to confirmation packets! (&c%delay%&7ms)'
+    console-alert-message: '[CinderAC] %player% was kicked for not replying to confirmation packets! (%delay%ms)'
+    # kick only if the player moved > 5 blocks from the join spot (AFK on a rules screen is not kicked)
+    code-of-conduct-fix: true
+  max-size:
+    amount: 2000
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for too many pending confirmations! (&c%size%&7)'
+    console-alert-message: '[CinderAC] %player% was kicked for too many pending confirmations! (%size%)'
+  keepalive:
+    kick-enabled: true
+    max-delay: 45000
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for not replying to KeepAlive Packets! &7(&c%delay%ms&7)'
+    console-message: '[CinderAC] %player% was kicked for not replying to KeepAlive Packets! (%delay%ms)'
+  max-ping:
+    kick-enabled: true
+    max-ping: 20000
+    max-ticks: 20
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for having too high ping! &7(&c%ping%ms&7)'
+    console-message: '[CinderAC] %player% kicked for having too high ping! (%ping%ms)'
+
+# Cancel damage dealt by the player for a short time after a flag
+cancel-hits:
+  enabled-for-all-checks: false
+  duration: 3000
+  cancel-event: false
+  # e.g. "killauraa", "reach a"
+  checks: []
+
+punishments:
+  message: '%prefix% &c%player% &7was punished for &f%check% &7(&fType %type%&7) &7[&4x%vl%&7]'
+  broadcast:
+    - '&7&m---»--*-------------------------------------*--«---'
+    - '&cCinderAC &7has detected &c%player% &7to be cheating and has removed them from the network.'
+    - '&7&m---»--*-------------------------------------*--«---'
+
+# Player "standing" on a block the server does not have (ghost block) - setback to the last legal position
+ghost-blocks-fix:
+  enabled: true
+  # account for "ghost water" (water the server no longer has) in Flight B
+  ghost-water-fix: true
+  minimum-tps: 18.5
+  ignore-legacy-via: true
+  buffer:
+    max: 3
+    decay: .1
+  setback: true
+  ticks: 3
+  message-enabled: false
+  message: '&cYou were walking on a ghost block. It has been updated!'
+  staff-message-enabled: true
+  staff-message: '%prefix% &c%player%''s &7position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) &7[%ticks%]'
+  print-to-console: true
+
+messages:
+  no-permission: '&cYou don''t have permission to execute this command!'
+  invalid-target: '%prefix% &cThe specified player could not be found!'
+  reload-success: '%prefix% &aSuccessfully reloaded CinderAC!'
+  reset-command: '%prefix% &7Violations for all online players were reset!'
+  violations-reset: '%prefix% &aSuccessfully reset violations for %player%!'
+  unknown-command: '%prefix% &cUnknown command!'
+
+settings:
+  # MASTER PUNISHMENT SWITCH: while false, punishment-commands and the broadcast are NOT executed
+  # (alerts, VL and logs still work). Enable after calibrating on a live server.
+  punishments-enabled: false
+  toggle-alerts-on-join: true
+  per-check-severities: true
+  # cinematic mode detection for some Aim checks
+  cinematic: false
+  # ms after a punishment during which no further alerts or punishments happen
+  punishment-delay: 5000
+  # ms after joining before checks start
+  join-check-wait-time: 1250
+  min-ticks-existed: 3
+  # Bedrock players (Geyser)
+  ignore-geyser-uuids: true
+  ignore-geyser-prefixes: true
+  ignore-geyser-prefix: '*'
+  # ticks of check exemption after /fly
+  flight-cooldown: 40
+  lenient-scaffolding: true
+  entity-collision: true
+  ignore-alerts-over-max-violations: false
+  ignore-alerts-over-max-violations-amount: 3
+  dont-setback-lower-positions: false
+  velocity-world-border: false
+  entity-cram-fix-enabled: false
+  entity-cram-entities-amount: 10
+  entity-cram-exempt-ticks: 30

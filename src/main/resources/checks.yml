@@ -1,0 +1,2937 @@
+checks:
+  combat:
+    aim:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.875
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 4
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.325
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.75
+          decay: 0.375
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 4
+          multiple: 0.75
+          decay: 0.375
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      e:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.875
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      f:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 6
+          multiple: 0.75
+          decay: 0.225
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      g:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.375
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      h:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3.5
+          multiple: 0.75
+          decay: 0.375
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      i:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3.5
+          multiple: 0.75
+          decay: 0.375
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      k:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      l:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 5
+          multiple: 0.725
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      n:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.75
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      o:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.75
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      p:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.7
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      q:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      s:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 10
+          multiple: 0.625
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      u:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      w:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 10
+          multiple: 0.625
+          decay: 0.062
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      x:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 6
+          multiple: 0.625
+          decay: 0.062
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      y:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    autoblock:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    autoclicker:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        max-cps: 25
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.25
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.5
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.25
+      e:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.375
+      f:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.625
+      g:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2.5
+          multiple: 0.625
+          decay: 0.625
+      h:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.5
+      i:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2.5
+          multiple: 0.75
+          decay: 0.625
+      j:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.625
+      k:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.375
+      l:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.5
+      m:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.375
+      n:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 12.5
+          multiple: 0.575
+          decay: 0.375
+      o:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 2.5
+          multiple: 0.625
+          decay: 0.625
+      p:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 1
+          multiple: 0.625
+      q:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 17.5
+          multiple: 0.65
+          decay: 1
+      r:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 25
+          multiple: 0.575
+          decay: 5
+      s:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 15
+          multiple: 0.575
+          decay: 0.412
+      t:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Autoclicker
+        buffer:
+          max: 12.5
+          multiple: 0.575
+          decay: 0.375
+        min-kurtosis: 13
+    criticals:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    fastbow:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.062
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    hitbox:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.062
+        max-angle: 0.36
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.625
+          decay: 0.062
+        max-angle: 45
+    killaura:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.8
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.125
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      j:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.25
+      k:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.375
+      l:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.8
+          decay: 0.25
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
+    reach:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 4
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+        max-reach: 3.03
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.625
+          decay: 0.113
+        max-reach: 3.15
+    velocity:
+      a:
+        enabled: true
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 40
+        alert-interval: 2
+        dont-alert-until: 3
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands: []
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.15
+      b:
+        enabled: true
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 40
+        alert-interval: 2
+        dont-alert-until: 3
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands: []
+        buffer:
+          max: 3
+          multiple: 0.5
+          decay: 0.15
+      c:
+        enabled: true
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 40
+        alert-interval: 2
+        dont-alert-until: 3
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands: []
+        buffer:
+          max: 3.5
+          multiple: 0.5
+          decay: 0.15
+      d:
+        enabled: false
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.05
+  movement:
+    antilevitation:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.0
+          multiple: 1.0
+          decay: 0.01
+    boatfly:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 4
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 0.25
+          multiple: 1.0
+          decay: 0.01
+        kick-out: true
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 0.25
+          multiple: 1.0
+          decay: 0.01
+        kick-out: true
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 0.25
+          multiple: 1.0
+          decay: 0.01
+        kick-out: true
+    elytra:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.125
+        max-speed: 4.25
+      b:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 4
+          multiple: 0.625
+          decay: 0.062
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.062
+      f:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.625
+          decay: 0.062
+      g:
+        enabled: true
+        punishable: false
+        setback: false
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+      i:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.05
+      k:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.05
+      l:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.05
+      m:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.05
+      n:
+        enabled: false
+        punishable: false
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+    entityflight:
+      a:
+        enabled: true
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 0.25
+          multiple: 1.0
+          decay: 0.01
+        kick-out: false
+      b:
+        enabled: true
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 0.25
+          multiple: 1.0
+          decay: 0.01
+        kick-out: false
+    entityspeed:
+      a:
+        enabled: true
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 0.25
+          multiple: 1.0
+          decay: 0.01
+        kick-out: false
+        min-difference: 0.0001
+    fastclimb:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.062
+    flight:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.825
+          decay: 0.138
+        ignore-ghost-blocks: true
+      b:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.138
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.875
+          decay: 0.113
+        ignore-ghost-blocks: true
+      d:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.675
+          decay: 0.138
+        ignore-ghost-blocks: true
+      e:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.7
+          decay: 0.25
+        ignore-ghost-blocks: true
+      f:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.7
+          decay: 0.05
+    jesus:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.05
+      b:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 16
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.087
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 5
+          multiple: 0.725
+          decay: 0.375
+      d:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.725
+          decay: 0.087
+      e:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 5
+          multiple: 0.625
+          decay: 0.087
+    jump:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 13
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.625
+          decay: 0.075
+      b:
+        enabled: true
+        punishable: false
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 20
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.075
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.625
+          decay: 0.075
+    motion:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.125
+      b:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.125
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+      e:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+    nosaddle:
+      a:
+        enabled: false
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: -1
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.0
+          multiple: 1.0
+          decay: 0.01
+    noslow:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.075
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3.5
+          multiple: 0.625
+          decay: 0.05
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3.5
+          multiple: 0.625
+          decay: 0.075
+    speed:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 6
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.675
+          decay: 0.062
+      b:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+        min-difference: 0.0025
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+        min-difference: 0.001
+      d:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+        min-difference: 0.0025
+      e:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.625
+          decay: 0.05
+    sprint:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.625
+          decay: 0.2
+    step:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.05
+    strafe:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+    vclip:
+      a:
+        enabled: true
+        punishable: false
+        setback: false
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+    wallclimb:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.675
+          decay: 0.113
+  player:
+    airplace:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+    badpackets:
+      '5':
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      '6':
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+      '7':
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      '8':
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.625
+          decay: 0.05
+      '9':
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.125
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+      e:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      f:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      g:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      h:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      i:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      j:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      k:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.2
+      m:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2.5
+          multiple: 0.665
+          decay: 0.125
+      n:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 10
+          multiple: 0.625
+          decay: 1.25
+      o:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.075
+      p:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.075
+      q:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.075
+      r:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.125
+      t:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      v:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.8
+          decay: 0.05
+        kick-out: true
+      w:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 4
+          multiple: 0.75
+          decay: 0.375
+      x:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.75
+          decay: 0.175
+      y:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+      z:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[CinderAC] Unfair Advantage
+    baritone:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 10
+          multiple: 0.75
+          decay: 0.125
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+    fastbreak:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 15.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.625
+          decay: 0.25
+        min-difference: -60
+    fastplace:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 15.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-blocks: 8
+    ghosthand:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        cancel: true
+    groundspoof:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.062
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.062
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.062
+    improbable:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-combat-violations: 25
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-movement-violations: 30
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-player-violations: 30
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-autoclicker-violations: 30
+      e:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-total-violations: 50
+      f:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        max-scaffold-violations: 25
+    invalid:
+      a:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      b:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 1
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 4
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.05
+      e:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 4
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+      f:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+      i:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.05
+      j:
+        enabled: true
+        punishable: true
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.05
+    scaffold:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      b:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.625
+          decay: 0.125
+      c:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.625
+          decay: 0.25
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.25
+      e:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.625
+          decay: 0.25
+      f:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 2
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.05
+      g:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.625
+          decay: 0.125
+      h:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 4
+          multiple: 0.625
+          decay: 0.175
+      i:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      j:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+      k:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.175
+        max-blocks: 6
+      m:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 6
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1
+          multiple: 0.75
+          decay: 0.125
+      n:
+        enabled: false
+        punishable: false
+        broadcast-punishment: false
+        max-violations: 6
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.125
+    timer:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 2
+        maximum-ping: 100000
+        minimum-tps: 19.8
+        punishment-commands:
+        - 'tempban %player% 30m Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        buffer:
+          max: 17.5
+          multiple: 0.713
+          decay: 0.925
+        max-speed: 1.05
+      d:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 18
+        alert-interval: 1
+        dont-alert-until: 4
+        maximum-ping: 100000
+        minimum-tps: 19.8
+        punishment-commands:
+        - 'tempban %player% 30m Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        buffer:
+          max: 1.5
+          multiple: 0.75
+          decay: 0.125
+        max-balance: 75
+    tower:
+      a:
+        enabled: true
+        punishable: true
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - tempban %player% 30m &c[CinderAC] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.75
+          decay: 0.375

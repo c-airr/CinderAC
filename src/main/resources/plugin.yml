@@ -1,0 +1,24 @@
+name: CinderAC
+version: '${version}'
+main: pl.airr.cinderac.CinderAC
+# 1.13 = modern material names on 1.13+; 1.8-1.12 servers ignore this field
+api-version: '1.13'
+folia-supported: true
+author: airr_
+description: Anticheat for Paper/Purpur/Folia 1.8.8+
+depend: [packetevents]
+commands:
+  cinderac:
+    description: CinderAC commands
+    aliases: [cac]
+    usage: /cinderac help
+permissions:
+  cinderac.alerts:
+    description: Receives CinderAC alerts
+    default: op
+  cinderac.command:
+    description: Access to /cinderac
+    default: op
+  cinderac.bypass:
+    description: Bypasses all checks
+    default: false
